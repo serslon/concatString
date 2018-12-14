@@ -9,13 +9,13 @@ For example, make a full name for users/customers with a prefix or without it. B
 For install function into your project, you need run command:
 
 ```bash
-npm install --sav concat-string
+npm install --sav @serslon/concat-string
 ```
 
 or
 
 ```bash
-yarn add concat-string
+yarn add @serslon/concat-string
 ```
 
 # Usage
@@ -30,7 +30,7 @@ You can use many ways for execute this function:
 
 ```javascript
 
-const concatString = require('concat-string');
+const concatString = require('@serslon/concat-string');
 ...
 const fullName = concatString(userProfile.prefix, userProfile.firstName, userProfile.lastName);
 ...
@@ -39,7 +39,7 @@ const fullName = concatString(userProfile.prefix, userProfile.firstName, userPro
 ## babel
 
 ```javascript
-import concatString from 'concat-string';
+import concatString from '@serslon/concat-string';
 ...
 const fullName = concatString(userProfile.prefix, userProfile.firstName, userProfile.lastName);
 ...
