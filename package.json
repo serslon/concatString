@@ -1,0 +1,27 @@
+{
+  "name": "concat-string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serslon/concatString.git"
+  },
+  "keywords": [
+    "concat",
+    "join",
+    "string"
+  ],
+  "author": "Sergey Solonina <sergeysolonina@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serslon/concatString/issues"
+  },
+  "homepage": "https://github.com/serslon/concatString#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
