@@ -9,7 +9,7 @@ For example, make a full name for users/customers with a prefix or without it. B
 For install function into your project, you need run command:
 
 ```bash
-npm install --sav @serslon/concat-string
+npm install --save @serslon/concat-string
 ```
 
 or
